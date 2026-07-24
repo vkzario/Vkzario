@@ -98,7 +98,11 @@ New technologies fascinate me, and I'm always looking for opportunities to learn
 </div>
 
 <div align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/Vkzario/Vkzario/snake-output/snake.svg" alt="Snake animation showing Victor's GitHub contributions" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vkzario/Vkzario/pacman-output/bomberman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vkzario/Vkzario/pacman-output/bomberman-contribution-graph.svg">
+    <img width="100%" alt="Bomberman animation showing Victor's GitHub contributions" src="https://raw.githubusercontent.com/Vkzario/Vkzario/pacman-output/bomberman-contribution-graph.svg">
+  </picture>
 </div>
 
 <br>
