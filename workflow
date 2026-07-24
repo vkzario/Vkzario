@@ -1,4 +1,4 @@
-name: Generate snake animation
+name: Generate arcade animation
 
 on:
   schedule:
@@ -13,19 +13,19 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 20
 
     steps:
-      - name: Generate snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Generate Bomberman contribution graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg?palette=github-dark
+          games: "bomberman"
 
-      - name: Push snake.svg to the snake-output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: Push Bomberman SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: snake-output
+          target_branch: pacman-output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
