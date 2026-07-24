@@ -98,7 +98,7 @@ New technologies fascinate me, and I'm always looking for opportunities to learn
 </div>
 
 <div align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Vkzario&bg_color=0D1117&color=8B5CF6&line=00B4D8&point=FFFFFF&area=true&hide_border=true" alt="Victor's GitHub activity graph" />
+  <img width="100%" src="https://raw.githubusercontent.com/Vkzario/Vkzario/snake-output/snake.svg" alt="Snake animation showing Victor's GitHub contributions" />
 </div>
 
 <br>
